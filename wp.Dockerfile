@@ -1,4 +1,4 @@
-FROM wordpress:6-php8.2-fpm
+FROM wordpress:beta-php8.2-fpm-alpine
 
 RUN apt-get update
 RUN apt-get install -y imagemagick
